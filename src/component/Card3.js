@@ -18,113 +18,70 @@ const Card3 = () => {
     <div>
       <h1 className="text-5xl font-bold ">Every team, side-by-side</h1>
 
-     
-        <div className="flex flex-row ">
+      <div className="flex flex-row gap-4 ">
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={engineering}
             alt="engineering"
             height={100}
             width={100}
-            className="object-contain bg-white h-[300px] w-[300px] drop-shadow-2xl border-solid rounded-lg cursor-pointer"
+            className="object-contain pl-[30px] "
           />
+          <h1>Engineering</h1>
+        </button>
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={design}
             alt="design"
             height={100}
             width={100}
-            className="object-contain"
+            className="object-contain  pl-[30px]"
           />
+          <h1>Design</h1>
+        </button>
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={products}
             alt="products"
             height={100}
             width={100}
-            className="object-contain"
+            className="object-contain  pl-[30px]"
           />
+        </button>
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={marketing}
             alt="marketing"
             height={100}
             width={100}
-            className="object-contain"
+            className="object-contain  pl-[30px]"
           />
+          <h1>Product</h1>
+        </button>
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={operations}
             alt="perationsa"
             height={100}
             width={100}
-            className="object-contain"
+            className="object-contain  pl-[30px]"
           />
+           <h1>Operation</h1>
+        </button>
+        <button className=" bg-white drop-shadow-md border-solid rounded-lg h-[150px] w-[150px]">
           <img
             src={hr}
             alt="hr"
             height={100}
             width={100}
-            className="object-contain"
+            className="object-contain  pl-[30px]"
           />
-        </div>
-
-<div>
-
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-[100px] w-[100px]">
-        <img
-            src={engineering}
-            alt="engineering"
-            height={100}
-            width={100}
-            className="object-contain bg-white drop-shadow-2xl border-solid rounded-lg cursor-pointer"
-          />  
+           <h1>hr</h1>
         </button>
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-10 w-[120]">
-        <img
-            src={design}
-            alt="design"
-            height={100}
-            width={100}
-            className="object-contain"
-          />
-          
-        </button>
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-10 w-[120]">
-        <img
-            src={products}
-            alt="products"
-            height={100}
-            width={100}
-            className="object-contain"
-          />
-        </button>
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-10 w-[120]">
-        <img
-            src={marketing}
-            alt="marketing"
-            height={100}
-            width={100}
-            className="object-contain"
-          />
-        </button>
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-10 w-[120]">
-        <img
-            src={operations}
-            alt="perationsa"
-            height={100}
-            width={100}
-            className="object-contain"
-          />
-        </button>
-        <button className=" bg-white drop-shadow-2xl border-solid rounded-lg h-10 w-[120]">
-        <img
-            src={hr}
-            alt="hr"
-            height={100}
-            width={100}
-            className="object-contain"
-          />
-       </button>
-        </div>
-
-       
+      </div>
+    <div>
       
+    </div>
     </div>
   );
 };

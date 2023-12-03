@@ -4,7 +4,6 @@ import FirstImg from './FirstImg'
 import MillionsRun from './MillionsRun'
 import Logos from './Logos'
 import MidImg from './MidImg'
-import FirstCard from './FirstCard'
 import Card3 from './Card3'
 import Avatar from './Avatar'
 import Grid from './Grid'
@@ -12,6 +11,11 @@ import Twitter from './Twitter'
 import Grid2 from './Grid2'
 import Grid3 from './Grid3'
 import Parade from './Parade'
+import MidGrid from './MidGrid'
+import Modal from './Modal'
+import Footer from "./footerC.js/Footer"
+
+
 const Home = () => {
   return (
     <div className='min-h-full bg-white flex flex-col'>
@@ -19,17 +23,19 @@ const Home = () => {
          
             <Heading />
             <FirstImg/>
-            <FirstCard/>
+           <Modal/>
             <MillionsRun/>
             <Logos/>
             <MidImg/>
             <Card3/>
+            <MidGrid/>
             <Avatar/>
             <Grid/>
             <Twitter/>
             <Grid2/>
             <Grid3/>
             <Parade/>
+            <Footer/>
             
 
         </div>

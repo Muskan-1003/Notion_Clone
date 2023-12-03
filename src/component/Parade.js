@@ -33,9 +33,9 @@ const Parade = () => {
       <img
         src={parade}
         alt="welcome"
-        height={300}
+        height={100}
         width={500}
-        className="object-contain mb-[200px] overflow-hidden rounded-lg"
+        className="object-contain overflow-hidden rounded-lg"
       />
     </div>
   );

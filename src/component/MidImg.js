@@ -6,7 +6,7 @@ import line from "../assets/line.png";
 
 
 const MidImg = () => {
-    console.log(metalab);
+    
   return (
     <div className="">
       <div className="flex justify-center ml-80 ">
