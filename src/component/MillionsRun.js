@@ -4,9 +4,9 @@ import { LuArrowRight } from "react-icons/lu";
 
 const MillionsRun = () => {
   return (
-    <div>
+    <div className='mt-[80px]'>
      
-      <h1 className="text-5xl font-bold ">
+      <h1 className="text-4xl font-bold ">
       Millions run on Notion every day
       </h1>
       <h3 className="text-lg text-gray-700  font-medium mt-4">

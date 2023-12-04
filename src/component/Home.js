@@ -14,6 +14,7 @@ import Parade from './Parade'
 import MidGrid from './MidGrid'
 import Modal from './Modal'
 import Footer from "./footerC.js/Footer"
+import PowerfulBB from './PowerfulBB'
 
 
 const Home = () => {
@@ -27,8 +28,9 @@ const Home = () => {
             <MillionsRun/>
             <Logos/>
             <MidImg/>
-            <Card3/>
+            <PowerfulBB/>
             <MidGrid/>
+            <Card3/>
             <Avatar/>
             <Grid/>
             <Twitter/>
