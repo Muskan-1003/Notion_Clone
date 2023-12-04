@@ -24,7 +24,9 @@ function Modal(props) {
     }
   return (<div className="flex-row items-center justify-center">
     <div className=" flex gap-3">
-  <div onMouseEnter={ishoveringA} className={`w-[243px] h-[150px] border-[2px] rounded-lg flex-col  p-4 ${hover=="ai"?"":"bg-black/5"}`}>
+  <div onMouseEnter={ishoveringA} className={`w-[243px] h-[150px]
+   border-[2px] rounded-lg flex-col  
+   p-4 ${hover=="ai"?"":"bg-black/5"}`}>
     <div className="flex">
       <div className="bg-[#F0E1F9] rounded-lg w-fit p-[5px] h-fit ">
         <img src={ai} width={33} height={33}></img>
@@ -36,7 +38,8 @@ function Modal(props) {
     <p  className={`text-left ${hover=="ai"?"":"mt-7"}`}> Ask litrally anything. Notion will answer</p>
     {hover=="ai"?<p className="font-[Segoe UI] text-left text-[#9D34DA]">Learn more →</p>:<div></div>}
   </div>
-  <div  onMouseEnter={ishoveringW} className={`w-[243px] h-[150px] border-[2px] rounded-lg flex-col  p-4 ${hover=="wiki"?"":"bg-black/5"}`}>
+  <div  onMouseEnter={ishoveringW} className={`w-[243px] h-[150px] border-[2px] rounded-lg flex-col
+    p-4 ${hover=="wiki"?"":"bg-black/5"}`}>
     <div className="flex">
       <div className="bg-[#FCE9E8] rounded-lg w-fit p-[5px] h-fit ">
         <img src={wiki} width={33} height={33}></img>
