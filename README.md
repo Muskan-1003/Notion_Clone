@@ -1,2 +1,2 @@
 #Notion
-notion-clone-steel-mu.vercel.app
+https://notion-clone-steel-mu.vercel.app/
